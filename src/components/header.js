@@ -3,31 +3,41 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+  <header className="bg-white black-80 tc pt4 avenir">
+    <h1 className="mt2 mb0 baskerville i fw1 f1">Fahd</h1>
+    <h2 className="mt2 mb0 f6 fw4 ttu tracked">Handmade Surfboards</h2>
+    <nav className="bt bb tc  center mt4">
+      <a
+        className="f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        className="f6 f5-l link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
+        href="/portfolio"
+      >
+        Portfolio
+      </a>
+      <a
+        className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l"
+        href="/shop"
+      >
+        Shop
+      </a>
+      <a
+        className="f6 f5-l link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l"
+        href="/about"
+      >
+        About
+      </a>
+      <a
+        className="f6 f5-l link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l"
+        href="/contact"
+      >
+        Contact
+      </a>
+    </nav>
   </header>
 )
 
