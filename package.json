@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Wael El Hachimi El Idrissi <wael@unik.ma>",
   "dependencies": {
+    "cloudinary-react": "^1.1.0",
     "gatsby": "^2.1.37",
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-manifest": "^2.0.24",
