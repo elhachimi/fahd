@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
         className="f6 f5-l link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
         href="/portfolio"
       >
-        Portfolio
+        Surfboards
       </a>
       <a
         className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l"
