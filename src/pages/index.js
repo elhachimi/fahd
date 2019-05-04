@@ -12,7 +12,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`surfboards`, `surf`, `shape`, `taghazout`, `tamraght`, `handmade`, `surfshop`, `shop`]} />
     <article className="">
       <CloudinaryContext cloudName="dvgmggxmh">
         <Video
@@ -35,14 +35,14 @@ const IndexPage = () => (
         }}
       >
         <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3 avenir">
-          <header className="bb b--black-70 pv4">
-            <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">
+          <header className="bb b--black-70 pv4-l pv2">
+            <h3 className="f2-l f3 fw7 ttu tracked lh-title mt0 mb3 avenir">
               Prasat Suor Prat
             </h3>
-            <h4 className="f3 fw4 i lh-title mt0">Siem Reap, Cambodia</h4>
+            <h4 className="f4 f3-l fw4 i lh-title mt0">Siem Reap, Cambodia</h4>
           </header>
-          <section className="pt5 pb4">
-            <p className="avenir lh-copy measure f4 mt0">
+          <section className="pt5-l pb4-l pt3 pb2">
+            <p className="avenir lh-copy measure f4-l f5 mt0">
               Prasat Suor Prat (Khmer: ប្រាសាទសួព្រ័ត) is a series of twelve
               towers spanne north to south lining the eastern side of royal
               square in Angkor Thom, near the town of Siem Reap, Cambodia. The
@@ -58,21 +58,21 @@ const IndexPage = () => (
     </article>
     <CloudinaryContext cloudName="dvgmggxmh">
       <article className="avenir black-80">
-        <h2 className="tc f4 fw4 pv4 tracked">Surfboards</h2>
+        <h2 className="tc f4 fw4 pv4-l pv2 tracked">Surfboards</h2>
         <div className="flex">
-          <div className="w-25 pa3 mr2">
+          <div className="w-25-l w-50 pa2">
             <Image publicId="flower" />
           </div>
-          <div className="w-25 pa3 mr2">
+          <div className="w-25-l w-50 pa2">
             <Image publicId="africana" />
           </div>
-          <div className="w-25 pa3 mr2">
+          <div className="w-25-l w-50 dn-m db pa2">
             <Image publicId="long" />
           </div>
-          <div className="w-25 pa3 mr2">
+          <div className="w-25-l w-50 dn-m pa2">
             <Image publicId="africana2" />
           </div>
-          <div className="w-25 pa3">
+          <div className="w-25-l w-50 dn-m pa2">
             <Image publicId="UNADJUSTEDNONRAW_thumb_7d8" />
           </div>
         </div>
