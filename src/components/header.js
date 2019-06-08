@@ -1,6 +1,6 @@
+import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header className="bg-white black-80 tc pt4 avenir">
