@@ -15,7 +15,13 @@ export default () => (
       </div>
       <div className="fl w-50">
         <h2 className="pl4 mt0 f4 fw4 tracked">Contact</h2>
-        <form className="pl4">
+        <form
+          className="pl4"
+          method="post"
+          name="contact"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
           <div className="mesure">
             <label for="name" className="f6 db mb2">
               Name

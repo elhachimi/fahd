@@ -17,7 +17,7 @@ const IndexPage = () => {
   const posts = []
   return (
     <Layout>
-      {/*<SEO
+      <SEO
         title="Home"
         keywords={[
           `surfboards`,
@@ -31,7 +31,6 @@ const IndexPage = () => {
         ]}
       />
 
-*/}
       <article className="pb4">
         <CloudinaryContext cloudName="dvgmggxmh">
           <Video

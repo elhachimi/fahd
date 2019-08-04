@@ -9,12 +9,11 @@ import React from "react"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-
 interface Props {
-  description: string;
-  lang: string;
-  meta: string;
-  keywords: string[];
+  description: string
+  lang: string
+  meta: string
+  keywords: string[]
   title: string
 }
 
@@ -75,19 +74,9 @@ function SEO({ description, lang, meta, keywords, title }: Props) {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ]
-        .concat(
-          keywords.length > 0
-            ? {
-                name: `keywords`,
-                content: keywords.join(`, `),
-              }
-            : []
-        )
-        .concat(meta)}
+      ]}
     />
   )
 }
-
 
 export default SEO
