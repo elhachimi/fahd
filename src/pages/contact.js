@@ -17,7 +17,7 @@ export default () => (
         <h2 className="pl4 mt0 f4 fw4 tracked">Contact</h2>
         <form
           className="pl4"
-          method="post"
+          method="POST"
           name="contact"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
@@ -39,8 +39,8 @@ export default () => (
             <input
               id="email"
               class="input-reset ba b--black-20 br2 pa2 mb2 db w-100"
-              type="text"
-              placeholder="Email"
+              type="email"
+              placeholder="name@name.com"
               aria-describedby="name-desc"
             />
             <label for="phone" className="f6 db mb2">
@@ -57,16 +57,15 @@ export default () => (
               Message
             </label>
             <textarea
-              id="comment"
-              name="comment"
+              id="message"
+              name="message"
               className="db border-box hover-black w-100 ba b--black-20 pa2 br2 mb2"
               aria-describedby="comment-desc"
             ></textarea>
-            <input
+            <button
               className="ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6"
               type="submit"
-              value="Send"
-            />
+            >Send</button>
           </div>
         </form>
       </div>
