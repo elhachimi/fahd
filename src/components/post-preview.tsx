@@ -2,7 +2,15 @@ import React from "react"
 import {Link} from 'gatsby';
 import { Image } from "cloudinary-react"
 
-export default ({ post }) => (
+interface Props {
+  post: {
+    slug: string;
+    title: string;
+    excerpt: string;
+    author: string;
+  }
+}
+export default ({ post }: Props) => (
   <article className="bt bb b--black-10">
     <Link
       className="db pv4 ph3 ph0-l no-underline black dim"

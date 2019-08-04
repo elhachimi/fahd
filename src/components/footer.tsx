@@ -1,9 +1,7 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import { Instagram } from "./generic/icons"
 
-const Footer = ({ siteTitle }) => (
+const Footer = () => (
   <footer className="pa4 mid-gray avenir">
     <section className="cf mb5">
       <div className="mb4 mb0-ns w-100 w-50-l fl">
@@ -12,7 +10,7 @@ const Footer = ({ siteTitle }) => (
           <span className="f7 f6-l db black-70">Agadir, Morocco</span>
           <a
             className="f6 db fw6 pv3 black-70 link dim"
-            title="Call SF"
+            title="Call Fahd Surfboards"
             href="tel:+212601517008"
           >
             +212 601-517008

@@ -8,20 +8,23 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-emotion`,
     {
-      resolve: `gatsby-mdx`,
-      options: {
-        defaultLyouts: {
-          default: require.resolve('./src/components/layout.js')
-        },
-      },
+      resolve: `gatsby-plugin-typescript`,
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `posts`,
-        path: `${__dirname}/src/posts`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-mdx`,
+    //   options: {
+    //     defaultLyouts: {
+    //       default: require.resolve("./src/components/layout.tsx"),
+    //     },
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `posts`,
+    //     path: `${__dirname}/src/posts`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

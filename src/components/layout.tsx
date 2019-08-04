@@ -5,14 +5,17 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
+import React, {ReactNode} from "react"
 
 import "./layout.css"
 import Header from "./header"
 import Footer from "./footer"
 
-const Layout = ({ children }) => (
+interface Props {
+  children:  ReactNode
+}
+
+const Layout = ({ children }: Props) => (
   <>
     <Header/>
     <main>{children}</main>
@@ -20,8 +23,5 @@ const Layout = ({ children }) => (
   </>
 )
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
 
 export default Layout

@@ -1,8 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header className="bg-white black-80 tc pt4 avenir">
     <h1 className="mt2 mb0 baskerville i fw1 f1">Fahd</h1>
     <h2 className="mt2 mb0 f6 fw4 ttu tracked">Handmade Surfboards</h2>
@@ -40,13 +38,5 @@ const Header = ({ siteTitle }) => (
     </nav>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
