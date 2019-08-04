@@ -1,11 +1,30 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `FAHD HANDMADE SURFBOARDS`,
+    description: `Fahd Surf Shop Handmade Surfboards.`,
+    author: `@wael`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-emotion`,
+    {
+      resolve: `gatsby-plugin-typescript`,
+    },
+    // {
+    //   resolve: `gatsby-mdx`,
+    //   options: {
+    //     defaultLyouts: {
+    //       default: require.resolve("./src/components/layout.tsx"),
+    //     },
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `posts`,
+    //     path: `${__dirname}/src/posts`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
