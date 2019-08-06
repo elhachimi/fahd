@@ -30,6 +30,7 @@ export default () => (
             </label>
             <input
               id="name"
+              name="name"
               class="input-reset ba b--black-20 br2 pa2 mb2 db w-100"
               type="text"
               aria-describedby="name-desc"
@@ -40,6 +41,7 @@ export default () => (
             </label>
             <input
               id="email"
+              name="email"
               class="input-reset ba b--black-20 br2 pa2 mb2 db w-100"
               type="email"
               placeholder="your@email.com"
@@ -50,6 +52,7 @@ export default () => (
             </label>
             <input
               id="phone"
+              name="phone"
               class="input-reset ba b--black-20 br2 pa2 mb2 db w-100"
               type="text"
               placeholder="+212..."
