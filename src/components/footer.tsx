@@ -21,7 +21,7 @@ const Footer = () => (
           </small>
         </article>
       </div>
-      <div className="mb4 mb0-ns fl w-100 w-50-l">
+      <div className="mb4 mb0-ns fl w-100 w-50-l pl4">
         <div className="mv3">
           <a
             className="black-70 f4 f3-ns fw6 tl link dim dib"
@@ -31,7 +31,7 @@ const Footer = () => (
           </a>
         </div>
         <div className="mv4">
-          <p className="f4 mb3 f6 mt0">Folow us on social medai</p>
+          <p className="f4 mb3 f6 mt0">Folow us on social media</p>
           <a
             className="link hover-silver near-black dib tc"
             href="https://instagram.com/fahdsurfboards"
