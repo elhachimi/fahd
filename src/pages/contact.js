@@ -23,6 +23,7 @@ export default () => (
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
+          <input type="hidden" name="bot-field" />
           <div className="mesure">
             <label for="name" className="f6 db mb2 mt3">
               Name
