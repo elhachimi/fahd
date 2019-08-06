@@ -61,14 +61,17 @@ const IndexPage = () => {
             </header>
             <section className="pt5-l pb4-l pt3 pb2">
               <p className="avenir lh-copy measure f4-l f5 mt0">
-                Fahds Factory is a special place located in Tamuraght 14 km
-                north from Agadir, a place where customers can watch their
-                boards in the making, a place where it’s possible to touch and
-                feel different kind of boards watch the shaper in the craft and
-                chat to experience the old school surf shops, We want every
-                visitor to be at his ease and not feel pressed to buy we are not
-                a clothing store ; ) We are only specialized in gears and
-                accessories to be in the water
+                Fahds Factory is a special place located in Tamraght 14 km north
+                from Agadir, a place where customers can watch their boards in
+                the making, a place where it’s possible to touch and feel
+                different kind of boards watch the shaper in the craft and chat
+                to experience the old school surf shops.
+                <br />
+                We want every visitor to be at his ease and not feel pressed to
+                buy we are not a clothing store ; )
+                <br />
+                We are only specialized in gears and accessories to be in the
+                water
               </p>
             </section>
           </div>

@@ -17,13 +17,14 @@ export default () => (
         <h2 className="pl4 mt0 f4 fw4 tracked">Contact</h2>
         <form
           className="pl4"
-          method="POST"
-          name="contact"
+          method="post"
+          action="/thank-you"
+          name="contact-form"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
           <div className="mesure">
-            <label for="name" className="f6 db mb2">
+            <label for="name" className="f6 db mb2 mt3">
               Name
             </label>
             <input
@@ -31,29 +32,29 @@ export default () => (
               class="input-reset ba b--black-20 br2 pa2 mb2 db w-100"
               type="text"
               aria-describedby="name-desc"
-              placeholder="Name"
+              placeholder="Full name"
             />
-            <label for="email" className="f6 db mb2">
+            <label for="email" className="f6 db mb2 mt3">
               email
             </label>
             <input
               id="email"
               class="input-reset ba b--black-20 br2 pa2 mb2 db w-100"
               type="email"
-              placeholder="name@name.com"
+              placeholder="your@email.com"
               aria-describedby="name-desc"
             />
-            <label for="phone" className="f6 db mb2">
+            <label for="phone" className="f6 db mb2 mt3">
               Phone
             </label>
             <input
               id="phone"
               class="input-reset ba b--black-20 br2 pa2 mb2 db w-100"
               type="text"
-              placeholder="+212-..."
+              placeholder="+212..."
               aria-describedby="name-desc"
             />
-            <label for="comment" className="f6 db mb2">
+            <label for="comment" className="f6 db mb2 mt3">
               Message
             </label>
             <textarea
@@ -61,6 +62,7 @@ export default () => (
               name="message"
               className="db border-box hover-black w-100 ba b--black-20 pa2 br2 mb2"
               aria-describedby="comment-desc"
+              rows="5"
             ></textarea>
             <button
               className="ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6"
