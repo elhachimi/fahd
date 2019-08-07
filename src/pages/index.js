@@ -5,6 +5,7 @@ import {
   Transformation,
   CloudinaryContext,
 } from "cloudinary-react"
+import { Link } from "gatsby"
 
 //import usePosts from "../hooks/use-posts"
 import Layout from "../components/layout"
@@ -78,26 +79,34 @@ const IndexPage = () => {
       </article>
       <CloudinaryContext cloudName="dvgmggxmh">
         <article className="avenir black-80">
-          <h2 className="tc f4 fw4 pv4-l pv2 tracked">Surfboards</h2>
+          <h2 className="tc f4 fw4 pt4-l pv2 tracked">Surfboards</h2>
+          <h3 className="tc">
+            <Link
+              className="avenir black-60 fw3 no-underline dim"
+              to="/surfboards"
+            >
+              View All
+            </Link>
+          </h3>
           <div className="flex">
             <div className="w-25-l w-50 pa2">
-              <Image publicId="flower" />
+              <Image publicId="truster-0" />
             </div>
             <div className="w-25-l w-50 pa2">
-              <Image publicId="africana" />
+              <Image publicId="africano" />
             </div>
             <div className="w-25-l w-50 dn-m db pa2">
               <Image publicId="long" />
             </div>
             <div className="w-25-l w-50 dn-m pa2">
-              <Image publicId="africana2" />
+              <Image publicId="black-memba" />
             </div>
             <div className="w-25-l w-50 dn-m pa2">
-              <Image publicId="UNADJUSTEDNONRAW_thumb_7d8" />
+              <Image publicId="fish-0" />
             </div>
           </div>
         </article>
-        <article className="avenir black-80">
+        {/*<article className="avenir black-80">
           <h2 className="tc f4 fw4 pv4 tracked">Latest post</h2>
         </article>
         <section className="mw7 center avenir">
@@ -106,6 +115,7 @@ const IndexPage = () => {
             <PostPreview post={post} />
           ))}
         </section>
+        */}
       </CloudinaryContext>
     </Layout>
   )
