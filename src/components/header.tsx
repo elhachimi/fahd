@@ -1,40 +1,41 @@
 import React from "react"
+import {Link} from 'gatsby';
 
 const Header = () => (
   <header className="bg-white black-80 tc pt4 avenir">
     <h1 className="mt2 mb0 baskerville i fw1 f1">Fahd</h1>
     <h2 className="mt2 mb0 f6 fw4 ttu tracked">Handmade Surfboards</h2>
     <nav className="bt bb tc  center mt4">
-      <a
+      <Link
         className="f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l"
-        href="/"
+        to="/"
       >
         Home
-      </a>
-      <a
+      </Link>
+      <Link
         className="f6 f5-l link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
-        href="/portfolio"
+        to="/surfboards"
       >
         Surfboards
-      </a>
-      <a
+      </Link>
+      <Link
         className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l"
-        href="/shop"
+        to="/shop"
       >
         Shop
-      </a>
-      <a
+      </Link>
+      <Link
         className="f6 f5-l link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l"
-        href="/about"
+        to="/about"
       >
         About
-      </a>
-      <a
+      </Link>
+      <Link
         className="f6 f5-l link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l"
-        href="/contact"
+        to="/contact"
       >
         Contact
-      </a>
+      </Link>
     </nav>
   </header>
 )

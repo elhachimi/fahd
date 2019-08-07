@@ -9,8 +9,8 @@ export default () => (
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.3205244345772!2d-9.682843284354977!3d30.511974481714706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b2e0770f3e77%3A0xc6a8b9c8a66d1c78!2sFahd+Hand+Shaped+Surfboards!5e0!3m2!1sen!2sma!4v1564940684164!5m2!1sen!2sma"
           width="100%"
           height="450"
-          frameborder="0"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
         ></iframe>
       </div>
       <div className="fl w-50">
@@ -25,40 +25,40 @@ export default () => (
         >
           <input type="hidden" name="bot-field" />
           <div className="mesure">
-            <label for="name" className="f6 db mb2 mt3">
+            <label htmlFor="name" className="f6 db mb2 mt3">
               Name
             </label>
             <input
               id="name"
               name="name"
-              class="input-reset ba b--black-20 br2 pa2 mb2 db w-100"
+              className="input-reset ba b--black-20 br2 pa2 mb2 db w-100"
               type="text"
               aria-describedby="name-desc"
               placeholder="Full name"
             />
-            <label for="email" className="f6 db mb2 mt3">
+            <label htmlFor="email" className="f6 db mb2 mt3">
               email
             </label>
             <input
               id="email"
               name="email"
-              class="input-reset ba b--black-20 br2 pa2 mb2 db w-100"
+              className="input-reset ba b--black-20 br2 pa2 mb2 db w-100"
               type="email"
               placeholder="your@email.com"
               aria-describedby="name-desc"
             />
-            <label for="phone" className="f6 db mb2 mt3">
+            <label htmlFor="phone" className="f6 db mb2 mt3">
               Phone
             </label>
             <input
               id="phone"
               name="phone"
-              class="input-reset ba b--black-20 br2 pa2 mb2 db w-100"
+              className="input-reset ba b--black-20 br2 pa2 mb2 db w-100"
               type="text"
               placeholder="+212..."
               aria-describedby="name-desc"
             />
-            <label for="comment" className="f6 db mb2 mt3">
+            <label htmlFor="comment" className="f6 db mb2 mt3">
               Message
             </label>
             <textarea
