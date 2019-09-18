@@ -44,7 +44,7 @@ function SEO({ description, lang, keywords, title }: Props) {
       meta={[
         {
           name: `keywords`,
-          content: keywords.reduce((keywords,keyword)=>`${keywords}, ${keyword}`),
+          content: keywords && keywords.reduce((keywords,keyword)=>`${keywords}, ${keyword}`),
         },
         {
           name: `description`,
