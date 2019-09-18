@@ -3,8 +3,8 @@ import Layout from "../components/layout"
 
 export default () => (
   <Layout>
-    <article className="cf pa4 mid-gray avenir">
-      <div className="fl w-50">
+    <article className="cf pa4-ns pa1 mid-gray avenir">
+      <div className="fl-ns w-50-ns">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.3205244345772!2d-9.682843284354977!3d30.511974481714706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b2e0770f3e77%3A0xc6a8b9c8a66d1c78!2sFahd+Hand+Shaped+Surfboards!5e0!3m2!1sen!2sma!4v1564940684164!5m2!1sen!2sma"
           width="100%"
@@ -13,10 +13,10 @@ export default () => (
           allowFullScreen
         ></iframe>
       </div>
-      <div className="fl w-50">
-        <h2 className="pl4 mt0 f4 fw4 tracked">Contact</h2>
+      <div className="fl-ns w-50-ns">
+        <h2 className="pl4-ns mt0 f4 fw4 tracked">Contact</h2>
         <form
-          className="pl4"
+          className="pl4-ns"
           method="post"
           action="/thank-you"
           name="contact-form"
