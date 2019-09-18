@@ -17,7 +17,7 @@ interface Props {
   title: string
 }
 
-function SEO({ description, lang, meta, keywords, title }: Props) {
+function SEO({ description, lang, keywords, title }: Props) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -42,6 +42,10 @@ function SEO({ description, lang, meta, keywords, title }: Props) {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
+        {
+          name: `keywords`,
+          content: keywords.reduce((keywords,keyword)=>`${keywords}, ${keyword}`),
+        },
         {
           name: `description`,
           content: metaDescription,
